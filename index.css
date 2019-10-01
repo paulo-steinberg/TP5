@@ -1,4 +1,4 @@
-#myCarousel img{
+#myCarousel img {
     height: 60vh;
     width: 100%;
 }
@@ -25,14 +25,30 @@
     color: rgb(221, 221, 221);
 }
 
-#rodapeinicial{
+.box {
+    position: absolute;
+    margin-left: auto;
+    right: 0;
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    text-align: center;
+    z-index: 9999;
+}
+
+.box .container-1 input {
+    width: 100%;
+}
+
+#rodapeinicial {
     margin-top: 40px;
     height: 50px;
     width: 100% !important;
-    background: linear-gradient(to right,#27ae60,#20bf6b);
+    background: linear-gradient(to right, #27ae60, #20bf6b);
 }
-#rodapeinicial p{
+
+#rodapeinicial p {
     font-size: 1em !important;
     padding-top: 10px;
-    color:#fff;
+    color: #fff;
 }
